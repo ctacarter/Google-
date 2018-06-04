@@ -1,0 +1,79 @@
+body { 
+  margin: 0;
+  font-family:cursive; 
+}
+
+header { 
+   margin-top:20px; 
+}
+
+.main { 
+position: relative;
+top: 50px;
+left: 0px;
+ right: 0px; 
+ text-align: center; 
+}
+
+
+
+header a#signIn {
+  padding: 7px 14px;
+  background: #07f;
+  color: #fff;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: default;
+} 
+
+#searchBar {
+  position: relative;  
+  left: 10px
+  margin-top: 5px; 
+  margin-bottom: 35px;
+  font-size; 17px;  
+   padding: 2px 15px;
+    width:626px;
+   height: 45px; 
+   border: 1px solid #ddd;  
+   box-shadow: 10px 5px 5px 1px rgba(0,0,0,.7) 
+   transition: all: 0.1s cubic-bezier(0.48, 0.32, 0.81, 1.07);
+    border-radius: 2px; 
+ }
+
+#searchBar:hover {
+box-shadow: 0 4px 10px -6px gray }
+} 
+.main button {
+   padding: 10px 20px;  
+}
+.main button:hover { }
+
+img { padding: 50px
+    color: rgba(0,0,0,0.8); 
+    }
+#logo { width:600px 
+}
+
+#footer { margin: 20px; 
+    padding: 50px; 
+    letter-spacing: 0.5em; 
+    word-spacing: 14em;
+     
+    
+}
+footer a: hover{ text-decoration: underline 
+}
+#header {margin-bottom:30px;
+padding:20px; }
+
+.container {
+   padding: 0 10px  }
+
+.list-left{ 
+    float: left;
+    display: inline-block 
+}
+.list-right{ 
+    float: right;
+display: inline-block; }
